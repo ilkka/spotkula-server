@@ -1,15 +1,15 @@
 'use strict';
 
 var http = require('http'),
-    spotify = require('spotify-node-applescript');
+    spotify = require('spotify-node-applescript'),
+    express = require('express');
 
-var cb = function(request, response) {
+var app = express();
 
-  debugger;
+app.get('/', function (request, response) {
+  response.send('ok');
+});
 
-  response.writeHead(200, {'Content-Type': 'text/html'});
-  response.write('Hello spotkula servereerer!');
-  response.end();
-};
+app.listen(3000);
+console.log("Listening on port 3000");
 
-http.createServer(cb).listen(3000, 'localhost');
