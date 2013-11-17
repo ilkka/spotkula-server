@@ -1,0 +1,50 @@
+{
+  "name": "spotkula-server",
+  "version": "0.0.0",
+  "description": "Control Spotify on OSX with HTTP",
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "bugs": "https://github.com/ilkka/spotkula-server/issues",
+  "author": {
+    "name": "Ilkka Laukkanen",
+    "email": "ilkka.s.laukkanen@gmail.com",
+    "url": "https://github.com/ilkka"
+  },
+  "homepage": "https://github.com/ilkka/spotkula-server",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ilkka/spotkula-server.git"
+  },
+  "main": "server/index.js",
+  "dependencies": {
+    "spotify-node-applescript": "~0.2.1",
+    "express": "3.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-node-inspector": "~0.1.1",
+    "grunt-nodemon": "~0.1.1",
+    "grunt-concurrent": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-open": "~0.2.2",
+    "grunt-wait": "~0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//spotkula-server"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
