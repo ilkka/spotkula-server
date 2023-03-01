@@ -20,7 +20,7 @@
   "main": "server/index.js",
   "dependencies": {
     "spotify-node-applescript": "~0.2.1",
-    "express": "4.17.3"
+    "express": "4.18.2"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
