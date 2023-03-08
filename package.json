@@ -19,7 +19,7 @@
   },
   "main": "server/index.js",
   "dependencies": {
-    "spotify-node-applescript": "~0.2.1",
+    "spotify-node-applescript": "~1.1.1",
     "express": "4.17.3"
   },
   "devDependencies": {
